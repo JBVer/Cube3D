@@ -30,14 +30,11 @@ apt install clang
 Windows users can follow [this guide.](https://github.com/ilkou/minilibx)
 (According to some student experiences, WSL users should consider using WSL2)
 
-## Game's Macros definition
-Within the inc/cub3D.h file:
+## Navigation
+Within the inc/cub3D.h file, modify the layout mode by commenting/uncommenting (QWERTY by default)
 
 ![image](https://github.com/JBVer/Cube3D/assets/50697943/a4686eed-a39e-41b3-9c28-4fe0a9c4f6a0)
 
-- Modify the layout mode by commenting/uncommenting (QWERTY by default)
-
-## Navigation
 - Use the keys A, S, D, W to move around (ZQSD for qwerty layout).
 - The **left** and **right** arrow keys allow you to control the camera.
 
