@@ -38,8 +38,8 @@ Within the inc/cub3D.h file:
 - Modify the layout mode by commenting/uncommenting (QWERTY by default)
 
 ## Navigation
+- Use the keys A, S, D, W to move around (ZQSD for qwerty layout).
 - The **left** and **right** arrow keys of the keyboard allow you to look left and right.
-- The W, A, S and D keys allow you to navigate through the maze (ZQSD for qwerty layout).
 
 ## Usage
 ```shell
