@@ -48,7 +48,7 @@ make
 ./cub3D input/maps/map1.cub
 ./cub3D input/maps/map2.cub
 ```
-(Maps must comply with certain restrictions, cf. subject.pdf)
+(You can create maps, but it must comply with the subject restrictions)
 
 ## Screenshot
 ![image](https://github.com/JBVer/Cube3D/assets/50697943/97d61b53-ae75-4115-9ab0-8b1b4e30e660)
