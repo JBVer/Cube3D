@@ -13,7 +13,7 @@
 * Cub3D is a school project developed by 2 students. Inspired by the groundbreaking game Wolfenstein 3D, it delves into ray-casting and 3D graphics using the miniLibX library.
 
 ## 🛠️ Linux MiniLibX installation
-- For Windows users MiniLibX(https://github.com/ilkou/minilibx)
+- For Windows users [MiniLibX](https://github.com/ilkou/minilibx)
 ```shell
 # Update/upgrade your system
 apt-get update && apt-get upgrade
