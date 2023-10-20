@@ -27,15 +27,15 @@ apt install libbsd-dev
 apt install clang
 ```
 
-Windows users can follow the [MiniLibX](https://github.com/ilkou/minilibx) github page.
-(According to some students experience, WSL users should consider using WSL2)
+Windows users can follow [this guide.](https://github.com/ilkou/minilibx)
+(According to some student experiences, WSL users should consider using WSL2)
 
 ## 🛠️ Game's Macros definition
 Within the inc/cub3D.h file:
 
 ![image](https://github.com/JBVer/Cube3D/assets/50697943/54fe2ff5-9bb5-4ce5-8d9c-e1d6d0f2c51c)
 
-- Modify the layout mode by commenting/ uncommenting
+- Modify the layout mode by commenting/ uncommenting (QWERTY by default)
 - Modify the game's height and width as needed.
 
 ## ⚙️ Usage
