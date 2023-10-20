@@ -48,6 +48,8 @@ make
 
 # Execute the binary with a .rt file
 ./cub3D /path/to/map.cub
+./cub3D input/maps/map1.cub
+./cub3D input/maps/map2.cub
 ```
 (Maps must comply with certain restrictions, cf. subject.pdf)
 
