@@ -31,10 +31,7 @@ Windows users can follow [this guide.](https://github.com/ilkou/minilibx)
 (According to some student experiences, WSL users should consider using WSL2)
 
 ## Navigation
-Within the inc/cub3D.h file, modify the layout mode by commenting/uncommenting (QWERTY by default)
-
-![image](https://github.com/JBVer/Cube3D/assets/50697943/a4686eed-a39e-41b3-9c28-4fe0a9c4f6a0)
-
+Within the inc/cub3D.h file, modify the layout mode by commenting/uncommenting the QWERTY_LAYOUT macro. (QWERTY by default)
 - Use the keys W, A, S and D to move around (ZQSD for azerty layout).
 - Use the **left** and **right** arrow keys for camera control.
 
