@@ -35,7 +35,7 @@ Within the inc/cub3D.h file:
 
 ![image](https://github.com/JBVer/Cube3D/assets/50697943/a4686eed-a39e-41b3-9c28-4fe0a9c4f6a0)
 
-- Modify the layout mode by commenting/ uncommenting (QWERTY by default)
+- Modify the layout mode by commenting/uncommenting (QWERTY by default)
 
 ## ⚙️ Usage
 - QWERTY mode: 🇼 🇦 🇸 🇩 to move around.
@@ -49,7 +49,7 @@ make
 # Execute the binary with a .rt file
 ./cub3D /path/to/map.cub
 ```
-(maps must comply with certain restrictions, cf. subject.pdf)
+(Maps must comply with certain restrictions, cf. subject.pdf)
 
 ## 🎬 Screenshots
 ![image](https://github.com/JBVer/Cube3D/assets/50697943/97d61b53-ae75-4115-9ab0-8b1b4e30e660)
