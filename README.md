@@ -10,11 +10,12 @@
 </p>
 
 ## 💡 About the project
-* Cub3D is a school project developed by 2 students. Inspired by the groundbreaking game Wolfenstein 3D, it delves into ray-casting and 3D graphics using the miniLibX library.
+* Cub3D is a school project developed by 2 students. Inspired by the groundbreaking game Wolfenstein 3D, it delves into ray-casting and 3D graphics using the MiniLibX library. The project is written in C.
 
-## 🛠️ Linux MiniLibX installation
-- For more details / Windows users
-  https://github.com/ilkou/minilibx
+## MiniLibX installation
+This project utilizes the MiniLibX library through the Metal framework (macOS 10.13+)
+
+Linux users must:
 ```shell
 # Update/upgrade your system
 apt-get update && apt-get upgrade
@@ -26,15 +27,27 @@ apt install libbsd-dev
 apt install clang
 ```
 
-## ⚙️ Usage
-Maps must follow certain restriction.
+Windows users can follow [this guide.](https://github.com/ilkou/minilibx)
+(According to some student experiences, WSL users should consider using WSL2)
+
+## Navigation
+Within the inc/cub3D.h file, modify the layout mode by commenting/uncommenting the QWERTY_LAYOUT macro. (QWERTY by default)
+- Use the keys W, A, S and D to move around (ZQSD for azerty layout).
+- Use the **left** and **right** arrow keys for camera control.
+
+## Usage
 ```shell
 # Within Project dir; Compile
 make
 
-# Execute the binary with a .rt file
+# Execute the binary with a .cub file
 ./cub3D /path/to/map.cub
+./cub3D input/maps/map1.cub
+./cub3D input/maps/map2.cub
 ```
+(You can create maps, but it must comply with the subject restrictions)
 
-## 🎬 Screenshots
-coming..
+## Screenshot
+![image](https://github.com/JBVer/Cube3D/assets/50697943/97d61b53-ae75-4115-9ab0-8b1b4e30e660)
+
+
