@@ -39,6 +39,10 @@ Within the inc/cub3D.h file:
 - Modify the game's height and width as needed.
 
 ## ⚙️ Usage
+QWERTY: WASD to move around.
+AZERTY: ZQSD to move around.
+◀️▶️ for camera control
+
 ```shell
 # Within Project dir; Compile
 make
