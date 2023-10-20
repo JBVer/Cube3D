@@ -31,8 +31,9 @@ Within the inc/cub3D.h file
 
 ![image](https://github.com/JBVer/Cube3D/assets/50697943/54fe2ff5-9bb5-4ce5-8d9c-e1d6d0f2c51c)
 
-By default, the game is playable in QWERTY.
-You can also modify the game's height and width.
+Modify the layout mode by commenting/ uncommenting
+
+Modify the game's height and width as needed.
 
 ## ⚙️ Usage
 ```shell
