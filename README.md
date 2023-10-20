@@ -14,6 +14,7 @@
 
 ## 🛠️ Linux MiniLibX installation
 - For Windows users [MiniLibX](https://github.com/ilkou/minilibx)
+(According to some students experience, WSL users should consider using WSL2)
 ```shell
 # Update/upgrade your system
 apt-get update && apt-get upgrade
