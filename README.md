@@ -12,7 +12,7 @@
 ## 💡 About the project
 * Cub3D is a school project developed by 2 students. Inspired by the groundbreaking game Wolfenstein 3D, it delves into ray-casting and 3D graphics using the MiniLibX library.
 
-## 🛠️ MiniLibX installation
+## MiniLibX installation
 This project utilizes the MiniLibX library through the Metal framework (macOS 10.13+)
 
 Linux users must:
@@ -30,18 +30,18 @@ apt install clang
 Windows users can follow [this guide.](https://github.com/ilkou/minilibx)
 (According to some student experiences, WSL users should consider using WSL2)
 
-## 🛠️ Game's Macros definition
+## Game's Macros definition
 Within the inc/cub3D.h file:
 
 ![image](https://github.com/JBVer/Cube3D/assets/50697943/a4686eed-a39e-41b3-9c28-4fe0a9c4f6a0)
 
 - Modify the layout mode by commenting/uncommenting (QWERTY by default)
 
-## ⚙️ Usage
-- QWERTY mode: 🇼 🇦 🇸 🇩 to move around.
-- AZERTY mode: 🇿 🇶 🇸 🇩 to move around.
-- ◀️▶️ for camera control
+## Navigation
+- The **left** and **right** arrow keys of the keyboard allow you to look left and right.
+- The W, A, S and D keys allow you to navigate through the maze (ZQSD for qwerty layout).
 
+## Usage
 ```shell
 # Within Project dir; Compile
 make
@@ -53,7 +53,7 @@ make
 ```
 (Maps must comply with certain restrictions, cf. subject.pdf)
 
-## 🎬 Screenshots
+## Screenshots
 ![image](https://github.com/JBVer/Cube3D/assets/50697943/97d61b53-ae75-4115-9ab0-8b1b4e30e660)
 ![image](https://github.com/JBVer/Cube3D/assets/50697943/fb8cf2c9-2a86-42e8-bd18-d4728fbe4022)
 
