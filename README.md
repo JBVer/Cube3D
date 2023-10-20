@@ -13,6 +13,8 @@
 * Cub3D is a technical school project developed by students at School 42 in Paris. This project delves into ray-casting and 3D graphics, leveraging the miniLibX library. It's a hands-on experience designed for academic purposes, aiming to strengthen coding skills and explore practical math applications.
 
 ## ⚙️ Linux MiniLibX installation
+- For more details / Windows users
+  https://github.com/ilkou/minilibx
 ```shell
 # Update/upgrade your system
 apt-get update && apt-get upgrade
@@ -23,7 +25,6 @@ apt install libxext-dev
 apt install libbsd-dev
 apt install clang
 ```
-- For more details / Windows users: https://github.com/ilkou/minilibx
 
 ## ⚙️ Usage
 This project is using the ``Minilibx`` using the Metal framework and therefore should work only on macOS 10.13+.<br>
