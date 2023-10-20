@@ -54,5 +54,6 @@ make
 
 ## 🎬 Screenshots
 ![image](https://github.com/JBVer/Cube3D/assets/50697943/97d61b53-ae75-4115-9ab0-8b1b4e30e660)
+![image](https://github.com/JBVer/Cube3D/assets/50697943/fb8cf2c9-2a86-42e8-bd18-d4728fbe4022)
 
 
