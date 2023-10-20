@@ -23,7 +23,8 @@ apt install libxext-dev
 apt install libbsd-dev
 apt install clang
 
-# For more details / Windows users: https://github.com/ilkou/minilibx
+# For more details / Windows users
+https://github.com/ilkou/minilibx
 ```
 
 ## ⚙️ Usage
