@@ -13,8 +13,7 @@
 * Cub3D is a school project developed by 2 students. Inspired by the groundbreaking game Wolfenstein 3D, it delves into ray-casting and 3D graphics using the miniLibX library.
 
 ## 🛠️ Linux MiniLibX installation
-- For more details / Windows users
-  https://github.com/ilkou/minilibx
+- For Windows users MiniLibX(https://github.com/ilkou/minilibx)
 ```shell
 # Update/upgrade your system
 apt-get update && apt-get upgrade
@@ -27,7 +26,6 @@ apt install clang
 ```
 
 ## ⚙️ Usage
-Maps must follow certain restriction.
 ```shell
 # Within Project dir; Compile
 make
@@ -35,6 +33,7 @@ make
 # Execute the binary with a .rt file
 ./cub3D /path/to/map.cub
 ```
+(maps must comply with certain restrictions, cf. subject.pdf)
 
 ## 🎬 Screenshots
 coming..
