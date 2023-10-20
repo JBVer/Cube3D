@@ -36,7 +36,7 @@ Within the inc/cub3D.h file, modify the layout mode by commenting/uncommenting (
 ![image](https://github.com/JBVer/Cube3D/assets/50697943/a4686eed-a39e-41b3-9c28-4fe0a9c4f6a0)
 
 - Use the keys A, S, D, W to move around (ZQSD for qwerty layout).
-- The **left** and **right** arrow keys allow you to control the camera.
+- Use the **left** and **right** arrow keys for camera control.
 
 ## Usage
 ```shell
