@@ -12,7 +12,7 @@
 
 #include "cub3D.h"
 
-void	free_all(t_cube *s)
+void free_all(t_cube *s)
 {
 	if (s->no)
 		mlx_destroy_image(s->mlx, s->no);
@@ -37,7 +37,7 @@ void	free_all(t_cube *s)
 	}
 }
 
-int	display(t_cube *s)
+int display(t_cube *s)
 {
 	keys_effects(s);
 	balayage(s, (float)s->pov);
@@ -45,9 +45,9 @@ int	display(t_cube *s)
 	return (0);
 }
 
-int	main(int ac, char **av)
+int main(int ac, char **av)
 {
-	t_cube	s;
+	t_cube s;
 
 	ft_memset(&s, 0, sizeof(t_cube));
 	s.mlx = mlx_init();

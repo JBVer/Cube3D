@@ -12,26 +12,21 @@
 
 #include "cub3D.h"
 
-static void	choose_pos(t_cube *s, t_point new, float dist)
+static void choose_pos(t_cube *s, t_point new, float dist)
 {
-	float	dist2;
+	float dist2;
 
 	dist2 = dist + 0.1;
-	if (s->maps[(int)(new.y + dist)][(int)(new.x + dist)] != '1'
-		&& s->maps[(int)(new.y - dist)][(int)(new.x - dist)] != '1'
-		&& s->maps[(int)(new.y - dist)][(int)(new.x + dist)] != '1'
-		&& s->maps[(int)(new.y + dist)][(int)(new.x - dist)] != '1')
+	if (s->maps[(int)(new.y + dist)][(int)(new.x + dist)] != '1' && s->maps[(int)(new.y - dist)][(int)(new.x - dist)] != '1' && s->maps[(int)(new.y - dist)][(int)(new.x + dist)] != '1' && s->maps[(int)(new.y + dist)][(int)(new.x - dist)] != '1')
 	{
-		if (s->maps[(int)new.y][(int)(new.x + dist2)] != '1'
-			&& s->maps[(int)new.y][(int)(new.x - dist2)] != '1')
+		if (s->maps[(int)new.y][(int)(new.x + dist2)] != '1' && s->maps[(int)new.y][(int)(new.x - dist2)] != '1')
 			s->pos.x = new.x;
-		if (s->maps[(int)(new.y + dist2)][(int)new.x] != '1'
-			&& s->maps[(int)(new.y - dist2)][(int)new.x] != '1')
+		if (s->maps[(int)(new.y + dist2)][(int)new.x] != '1' && s->maps[(int)(new.y - dist2)][(int)new.x] != '1')
 			s->pos.y = new.y;
 	}
 }
 
-static void	wasd_keys(t_cube *s, t_point pos, float speed, float dist)
+static void wasd_keys(t_cube *s, t_point pos, float speed, float dist)
 {
 	if (s->k.keys == 1)
 	{
@@ -59,21 +54,21 @@ static void	wasd_keys(t_cube *s, t_point pos, float speed, float dist)
 	}
 }
 
-void	keys_effects(t_cube *s)
+void keys_effects(t_cube *s)
 {
-	float	speed;
-	float	dist;
+	float speed;
+	float dist;
 
 	speed = 0.2;
 	dist = 0.2;
 	wasd_keys(s, s->pos, speed, dist);
 	if (s->k.keyl == 1)
-		s->pov = modulo_2pi(s->pov + 5);
+		s->pov = modulo_2pi(s->pov + 3);
 	if (s->k.keyr == 1)
-		s->pov = modulo_2pi(s->pov - 5);
+		s->pov = modulo_2pi(s->pov - 3);
 }
 
-int	keyrelease(int key, t_cube *s)
+int keyrelease(int key, t_cube *s)
 {
 	if (key == W)
 		s->k.keyw = 0;
@@ -90,7 +85,7 @@ int	keyrelease(int key, t_cube *s)
 	return (0);
 }
 
-int	keypress(int key, t_cube *s)
+int keypress(int key, t_cube *s)
 {
 	if (key == ESC)
 		mlx_loop_end(s->mlx);
