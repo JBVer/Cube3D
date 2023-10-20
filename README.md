@@ -39,7 +39,7 @@ Within the inc/cub3D.h file:
 
 ## Navigation
 - Use the keys A, S, D, W to move around (ZQSD for qwerty layout).
-- The **left** and **right** arrow keys of the keyboard allow you to look left and right.
+- The **left** and **right** arrow keys allow you to control the camera.
 
 ## Usage
 ```shell
