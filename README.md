@@ -4,7 +4,6 @@
 
 <p align="center">
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/JBVer/Cube3D?color=lightblue" />
-	<img alt="Number of lines of code" src="https://tokei.rs/b1/github/JBVer/Cube3D?category=code" />
 	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/JBVer/Cube3D?color=blue" />
 	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JBVer/Cube3D?color=green" />
 </p>
@@ -69,5 +68,9 @@ Maps are defined using a simple configuration file. Here's an example format:
 
 ## Screenshot
 ![image](https://github.com/JBVer/Cube3D/assets/50697943/97d61b53-ae75-4115-9ab0-8b1b4e30e660)
+
+## Authors
+- Kenny Duong
+- Jean-Baptiste Vermeersch
 
 
