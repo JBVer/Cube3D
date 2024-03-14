@@ -10,7 +10,7 @@
 </p>
 
 ## 💡 About the project
-* Cub3D is a school project developed by 2 students. Inspired by the groundbreaking game Wolfenstein 3D, it delves into ray-casting and 3D graphics using the MiniLibX library. The project is written in C.
+* Inspired by the groundbreaking game Wolfenstein 3D (1992), this project delves into ray-casting and 3D graphics using the MiniLibX library.
 
 ## MiniLibX installation
 This project utilizes the MiniLibX library through the Metal framework (macOS 10.13+)
