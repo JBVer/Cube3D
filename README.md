@@ -30,6 +30,17 @@ apt install clang
 Windows users can follow [this guide.](https://github.com/ilkou/minilibx)
 (WSL users should consider using WSL2)
 
+## Usage
+```shell
+# Within Project dir; Compile
+make
+
+# Execute the binary with a .cub file
+./cub3D /path/to/map.cub
+./cub3D input/maps/map1.cub
+./cub3D input/maps/map2.cub
+```
+
 ## Navigation
 Within the inc/cub3D.h file, modify the layout mode by commenting/uncommenting the QWERTY_LAYOUT macro. (QWERTY by default)
 - Use the keys W, A, S and D to move around (ZQSD for azerty layout).
@@ -55,17 +66,6 @@ Maps are defined using a simple configuration file. Here's an example format:
  -- **Floor and Ceiling Colors**: Define the RGB color values for the floor and ceiling:
 - `F 220,100,0`
 - `C 225,30,0`
-
-## Usage
-```shell
-# Within Project dir; Compile
-make
-
-# Execute the binary with a .cub file
-./cub3D /path/to/map.cub
-./cub3D input/maps/map1.cub
-./cub3D input/maps/map2.cub
-```
 
 ## Screenshot
 ![image](https://github.com/JBVer/Cube3D/assets/50697943/97d61b53-ae75-4115-9ab0-8b1b4e30e660)
