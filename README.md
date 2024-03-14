@@ -28,7 +28,7 @@ apt install clang
 ```
 
 Windows users can follow [this guide.](https://github.com/ilkou/minilibx)
-(According to some student experiences, WSL users should consider using WSL2)
+(WSL users should consider using WSL2)
 
 ## Navigation
 Within the inc/cub3D.h file, modify the layout mode by commenting/uncommenting the QWERTY_LAYOUT macro. (QWERTY by default)
