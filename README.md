@@ -1,5 +1,5 @@
 <h1 align="center">
-	🚀 Wolf3D
+	🚀 Wolf3D 
 </h1>
 
 <p align="center">
