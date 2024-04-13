@@ -1,15 +1,15 @@
 <h1 align="center">
-	🚀 Cube3D
+	🚀 Wolf3D
 </h1>
 
 <p align="center">
-	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/JBVer/Cube3D?color=lightblue" />
-	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/JBVer/Cube3D?color=blue" />
-	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JBVer/Cube3D?color=green" />
+	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/JBVer/Wolf3D?color=lightblue" />
+	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/JBVer/Wolf3D?color=blue" />
+	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JBVer/Wolf3D?color=green" />
 </p>
 
 ## 💡 About the project
-* Inspired by the groundbreaking game Wolfenstein 3D (1992), this project delves into ray-casting and 3D graphics using the MiniLibX library.
+* This project is inspired by the game Wolfenstein 3D (1992). It delves into ray-casting and 3D graphics using the MiniLibX library.
 
 ## MiniLibX installation
 This project utilizes the MiniLibX library through the Metal framework (macOS 10.13+)
