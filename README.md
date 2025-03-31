@@ -9,7 +9,7 @@
 </p>
 
 ## 💡 About the project
-* This project is inspired by the game Wolfenstein 3D (1992). It delves into ray-casting and 3D graphics using the MiniLibX library.
+* A replica of the game Wolfenstein 3D (1992). Delves into ray-casting and 3D graphics.
 
 ## MiniLibX installation
 This project utilizes the MiniLibX library through the Metal framework (macOS 10.13+)
